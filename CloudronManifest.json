@@ -6,7 +6,7 @@
   "tagline": "Log aggregation system",
   "version": "1.0.0",
   "upstreamVersion": "3.5.1",
-  "healthCheckPath": "/",
+  "healthCheckPath": "/ready",
   "httpPort": 3100,
   "addons": {
     "localstorage": {}

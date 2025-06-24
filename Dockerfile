@@ -9,8 +9,6 @@ RUN wget https://github.com/grafana/loki/releases/download/v${VERSION}/loki-linu
   unzip loki-linux-amd64.zip -d /app/code/ && \
   rm -rf loki-linux-amd64.zip
 
-RUN wget -O /app/pkg/config.yaml https://raw.githubusercontent.com/grafana/loki/v${VERSION}/cmd/loki/loki-local-config.yaml
-
-COPY start.sh /app/pkg/
+COPY start.sh config.yaml.template /app/pkg/
 
 CMD [ "/app/pkg/start.sh" ]
