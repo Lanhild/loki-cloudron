@@ -4,12 +4,13 @@
   "author": "Grafana Labs",
   "description": "file://DESCRIPTION.md",
   "tagline": "Log aggregation system",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "upstreamVersion": "3.5.1",
   "healthCheckPath": "/ready",
   "httpPort": 3100,
   "addons": {
-    "localstorage": {}
+    "localstorage": {},
+    "proxyAuth": {}
   },
   "manifestVersion": 2,
   "website": "https://grafana.com/oss/loki/",
