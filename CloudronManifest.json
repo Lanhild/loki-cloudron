@@ -1,0 +1,25 @@
+{
+  "id": "com.grafana.loki.cloudronapp",
+  "title": "Loki",
+  "author": "Grafana Labs",
+  "description": "file://DESCRIPTION.md",
+  "tagline": "Log aggregation system",
+  "version": "1.0.0",
+  "upstreamVersion": "3.5.1",
+  "healthCheckPath": "/",
+  "httpPort": 3100,
+  "addons": {
+    "localstorage": {}
+  },
+  "manifestVersion": 2,
+  "website": "https://grafana.com/oss/loki/",
+  "contactEmail": "support@cloudron.io",
+  "icon": "file://logo.png",
+  "memoryLimit": 1073741824,
+  "tags": [
+    "sysadmin"
+  ],
+  "documentationUrl": "https://docs.cloudron.io/apps/loki",
+  "minBoxVersion": "8.2.0",
+  "forumUrl": "https://forum.cloudron.io/category/111/loki"
+}
